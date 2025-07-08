@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to right, #B4C5E2, #FDDAF8);
+    }
+    section#login {
+        width: 90vw;
+    }
+    section#login > div#imagem {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+section#login > div#formulario {
+    float: right;
+    width: 70%;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    section#login {
+    width: 950px;
+    }
+
+    section#login > div#imagem {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+section#login > div#formulario {
+    float: right;
+    width: 60%;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, tvs, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
